@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #fed001;
+  --secudary-color: #2a2a2a;
+  --terceira-color: #003464;
+  --quarta-color: #fafafa;
+}
+
+html {
+  /* font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400; */
+  font: 400 62.5% 'Inter', sans-serif;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+}
+
+nav a {
+  color: inherit;
+  /* Inherit significa que é uma herança, vai herdar a cor do elemento acima/anterior 
+  que no caso é o wrapperContainer-dark que tem a cor #fafafa (quase) */
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.wrapperContainer-dark {
+  background-color: var(--secudary-color);
+  color: var(--quarta-color);
+}
+
+.wrapperContainer-light {
+  background-color: var(--quarta-color);
+}
+
+.wrapperContainer-dark2 {
+  background-color: var(--terceira-color);
+  color: var(--quarta-color);
+}
+
+.container {
+  max-width: 127.6rem;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-color);
+  padding: 2rem 0;
+}
+
+.header_nav a {
+  padding: 0.75em 1.15em;
+  border: solid 1px;
+  text-decoration: none;
+}
+
+.header_nav ul {
+  display: flex;
+  gap: 0.6rem;
+  list-style-type: none;
+}
