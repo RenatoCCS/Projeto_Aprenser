@@ -16,8 +16,7 @@
 Bem-vindo ao **AprenSer,** um escola de cursos.
 O desenvolvimento desse projeto front-end foi iniciado acompanhando as aulas da [Serliv Cursos]([https://cursos.alura.com.br/course/html-css-responsividade-mobile-first](https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/?couponCode=ACCAGE0923)) com o professor [Daniel Tapias Morales](https://www.linkedin.com/in/daniel-tapias-morales-87145621/). <br><br>
  <br>
-Foi usado media queries para otimizar a responsividade dos dispositivos (Mobile min-width: 428px, Tablet min-width: 1024px e desktop min-width: 1920px). <br><br>
-Outras técnicas que foram utilizadas no decorrer do projeto foram flexbox, menu hamburguer funcional sem uso de javascript, banner com imagem de fundo com input para pesquisa, importação de plugin de biblioteca externa (swiperjs.com) para fazer o carrossel.
+Técnicas que foram utilizadas no decorrer do projeto foram flexbox, (Revisão para acrescentar outras coisas).
 
 <br><br>
 
@@ -36,7 +35,7 @@ Nos links abaixo é possível visualizar a página do AprenSer.
 
 - Implantado via github pages https://renatoccs.github.io/Projeto_Aprenser/
   <br><br>
-- Implantado via vercel 
+- Implantado via vercel https://projeto-aprenser-renatoccs.vercel.app/
 
 <br>
 
