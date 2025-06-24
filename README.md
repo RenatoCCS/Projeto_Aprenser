@@ -1,6 +1,6 @@
-<h4 align="center"> 
+<!--<h4 align="center"> 
     :construction:  Projeto em construção  :construction:
-</h4>
+</h4>-->
 
 # 📚 Projeto AprenSer: Uma Escola de Cursos Online 
 
@@ -21,7 +21,7 @@ O desenvolvimento deste projeto foi realizado nas aulas do curso **[Serliv Curso
     * **Hero Banner**: Um destaque visual inicial com título e call-to-action (Mais informações).
     * **Principais Cursos**: Cards informativos com imagens e descrições dos cursos oferecidos.
     * **Nossa Escola**: Apresentação da instituição com texto e imagem.
-    * **Contatos**: Informações de contato e um espaço para mapa (idealmente integrado com Google Maps para funcionalidade completa).
+    * **Contatos**: Informações de contato e endereço (Integrado com Google Maps para uma localização mais precisa).
 
 ---
 
@@ -31,11 +31,11 @@ Foram utilizados as seguintes ferramentas e conceitos:
 
 * **HTML5**: Estruturação semântica do conteúdo da página, utilizando tags como `<header>`, `<section>`, `<article>`, `<nav>`, `<footer>`.
 * **CSS3**: Estilização completa da interface, incluindo:
-    * **Flexbox**: Amplamente utilizado para criar layouts flexíveis e responsivos, como o alinhamento do cabeçalho, do hero banner, dos cards de cursos e da seção "Nossa Escola".
+    * **Flexbox**: Utilizado para criar layout flexível, como os alinhamentos do cabeçalho, do hero banner, dos cards de cursos e da seção "Nossa Escola".
     * **Variáveis CSS (`:root`)**: Para gerenciamento eficiente de cores e outros valores globais, facilitando a manutenção e futuras modificações de tema.
-    * **Unidades `rem`**: Para garantir uma tipografia e espaçamento consistentes e escaláveis, ideal para responsividade.
-    * **`position: sticky`**: Implementação de um cabeçalho fixo que se "gruda" ao topo da janela de visualização.
-    * **Gradientes CSS**: Utilizados no hero banner para um efeito visual moderno.
+    * **Unidades `rem`**: Para garantir uma tipografia e espaçamento.
+    * **`position: sticky`**: Implementação de um cabeçalho fixo que se "gruda" ao topo da janela de visualização, para facilitar a navegação.
+    * **Gradientes CSS**: Utilizado no hero banner para uma transição suave de cores.
     * **Normalize.css**: Para padronizar o estilo em diferentes navegadores.
 * **Git e GitHub**: Controle de versão e hospedagem do projeto.
 
@@ -55,9 +55,8 @@ Você pode acessar e interagir com a página do AprenSer através dos seguintes 
 Contribuições são **muito bem-vindas**! Se você tem ideias para melhorar este projeto, adicionar novos recursos, refatorar o código ou corrigir problemas, sinta-se à vontade para:
 
 1.  **Fazer um Fork** deste repositório.
-<!--2.  **Criar uma nova branch** para sua feature (`git checkout -b feature/nome-da-feature`).
-3.  **Realizar suas alterações** e fazer commits claros.-->
-2.  **Abrir um Pull Request** detalhando as mudanças propostas.
+2.  **Realizar suas alterações** e fazer commits claros.
+3.  **Abrir um Pull Request** detalhando as mudanças propostas.
 
 Obrigado por visitar meu GitHub! Se gostou do projeto, considere deixar um ["Follow"](https://github.com/RenatoCCS) 👋 – podemos trocar ideias para futuros projetos e crescer juntos na comunidade de desenvolvimento!
 
