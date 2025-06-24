@@ -2,53 +2,63 @@
     :construction:  Projeto em construção  :construction:
 </h4>
 
-<H1> AprenSer </H1>
+# 📚 Projeto AprenSer: Uma Escola de Cursos Online 
 
-<!--
-<p align="center">
-  <img src="https://github.com/RenatoCCS/Alurabooks/blob/main/img/Alurabooks.png" alt="Logo Alurabooks">
-</p>-->
+---
 
-<br>
+## 💻 Visão Geral do Projeto
 
-<h2>💻 Projeto  </h2>
+Bem-vindo ao **AprenSer**, um projeto front-end que simula a página inicial de uma escola de cursos. Este projeto foi desenvolvido para demonstrar habilidades em **HTML5** e **CSS3**.
 
-Bem-vindo ao **AprenSer,** um escola de cursos.
-O desenvolvimento desse projeto front-end foi iniciado acompanhando as aulas da [Serliv Cursos]([https://cursos.alura.com.br/course/html-css-responsividade-mobile-first](https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/?couponCode=ACCAGE0923)) com o professor [Daniel Tapias Morales](https://www.linkedin.com/in/daniel-tapias-morales-87145621/). <br><br>
- <br>
-Técnicas que foram utilizadas no decorrer do projeto foram flexbox, (Revisão para acrescentar outras coisas).
+O desenvolvimento deste projeto foi realizado nas aulas do curso **[Serliv Cursos](https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/?couponCode=ACCAGE0923)**, com o professor **[Daniel Tapias Morales](https://www.linkedin.com/in/daniel-tapias-morales-87145621/)**.
 
-<br><br>
+---
 
-<h2>:floppy_disk: Tecnologias Utilizadas </h2>
+## ✨ Funcionalidades e Destaques
 
-- HTML5
-- CSS3
-- Git e GitHub
+* **Navegação Fixa**: O cabeçalho permanece fixo no topo da página, proporcionando fácil acesso à navegação principal (Cursos, Nossa Escola, Contatos) em qualquer parte do scroll.
+* **Seções Claras e Intuitivas**: A página é dividida em seções bem definidas:
+    * **Hero Banner**: Um destaque visual inicial com título e call-to-action (Mais informações).
+    * **Principais Cursos**: Cards informativos com imagens e descrições dos cursos oferecidos.
+    * **Nossa Escola**: Apresentação da instituição com texto e imagem.
+    * **Contatos**: Informações de contato e um espaço para mapa (idealmente integrado com Google Maps para funcionalidade completa).
+
+---
+
+## 🛠️ Técnicas e Tecnologias Utilizadas
+
+Foram utilizados as seguintes ferramentas e conceitos:
+
+* **HTML5**: Estruturação semântica do conteúdo da página, utilizando tags como `<header>`, `<section>`, `<article>`, `<nav>`, `<footer>`.
+* **CSS3**: Estilização completa da interface, incluindo:
+    * **Flexbox**: Amplamente utilizado para criar layouts flexíveis e responsivos, como o alinhamento do cabeçalho, do hero banner, dos cards de cursos e da seção "Nossa Escola".
+    * **Variáveis CSS (`:root`)**: Para gerenciamento eficiente de cores e outros valores globais, facilitando a manutenção e futuras modificações de tema.
+    * **Unidades `rem`**: Para garantir uma tipografia e espaçamento consistentes e escaláveis, ideal para responsividade.
+    * **`position: sticky`**: Implementação de um cabeçalho fixo que se "gruda" ao topo da janela de visualização.
+    * **Gradientes CSS**: Utilizados no hero banner para um efeito visual moderno.
+    * **Normalize.css**: Para padronizar o estilo em diferentes navegadores.
+* **Git e GitHub**: Controle de versão e hospedagem do projeto.
+
+---
+
+## 🚀 Como Visualizar o Projeto
+
+Você pode acessar e interagir com a página do AprenSer através dos seguintes links de deploy:
+
+* **GitHub Pages**: [https://renatoccs.github.io/Projeto_Aprenser/](https://renatoccs.github.io/Projeto_Aprenser/)
+* **Vercel**: [https://projeto-aprenser-renatoccs.vercel.app/](https://projeto-aprenser-renatoccs.vercel.app/)
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são **muito bem-vindas**! Se você tem ideias para melhorar este projeto, adicionar novos recursos, refatorar o código ou corrigir problemas, sinta-se à vontade para:
+
+1.  **Fazer um Fork** deste repositório.
+<!--2.  **Criar uma nova branch** para sua feature (`git checkout -b feature/nome-da-feature`).
+3.  **Realizar suas alterações** e fazer commits claros.-->
+2.  **Abrir um Pull Request** detalhando as mudanças propostas.
+
+Obrigado por visitar meu GitHub! Se gostou do projeto, considere deixar um ["Follow"](https://github.com/RenatoCCS) 👋 – podemos trocar ideias para futuros projetos e crescer juntos na comunidade de desenvolvimento!
 
 
-<br>
-
-<h2>📁  Deploy </h2>
-
-Nos links abaixo é possível visualizar a página do AprenSer.
-
-- Implantado via github pages https://renatoccs.github.io/Projeto_Aprenser/
-  <br><br>
-- Implantado via vercel https://projeto-aprenser-renatoccs.vercel.app/
-
-<br>
-
-<h2>:handshake: Contribuição </h2>
-
-Contribuições são bem-vindas! Se você deseja melhorar este projeto, adicionar novos recursos ou corrigir problemas, sinta-se à vontade para abrir um _pull request_.
-
-Obrigado por visitar meu GitHub dê um ["Follow"](https://github.com/RenatoCCS), que sigo de volta 😁, podemos trocas ideias para novos projetos.
-
-<br>
-
-<!--
-<h2>:trophy: Créditos </h2>
-
-Lembrando de conferir o repositório original [aqui](https://github.com/MonicaHillman/alurabooks?tab=readme-ov-file) e deixar uma ⭐️ se você gostou do projeto! <br>
--->
