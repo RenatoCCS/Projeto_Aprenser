@@ -1,8 +1,11 @@
 :root {
   --primary-color: #fed001;
   --secudary-color: #2a2a2a;
-  --terceira-color: #003464;
-  --quarta-color: #fafafa;
+  --tertiary-color: #003464;
+  --quaternary-color: #fafafa;
+  --quinary-color: #ccc;
+  --senary-color: #000000;
+  --inherit-color: inherit;
 }
 
 html {
@@ -30,7 +33,7 @@ h3 {
 }
 
 nav a {
-  color: inherit;
+  color: var(--inherit-color);
   /* Inherit significa que é uma herança, vai herdar a cor do elemento acima/anterior 
   que no caso é o wrapperContainer-dark que tem a cor #fafafa (quase) */
 }
@@ -46,7 +49,7 @@ nav a {
   text-decoration: none;
   padding: 1.6rem 4.6rem;
   display: inline-block;
-  color: inherit;
+  color: var(--inherit-color);
 }
 
 .wrapperContainer {
@@ -55,16 +58,16 @@ nav a {
 
 .wrapperContainer-dark {
   background-color: var(--secudary-color);
-  color: var(--quarta-color);
+  color: var(--quaternary-color);
 }
 
 .wrapperContainer-light {
-  background-color: var(--quarta-color);
+  background-color: var(--quaternary-color);
 }
 
 .wrapperContainer-dark2 {
-  background-color: var(--terceira-color);
-  color: var(--quarta-color);
+  background-color: var(--tertiary-color);
+  color: var(--quaternary-color);
 }
 
 .wrapperContainer-fixed {
@@ -114,7 +117,7 @@ nav a {
 }
 
 .header_nav a:hover {
-  background-color: black;
+  background-color: var(--senary-color);
 }
 
 .wrapperContainer-hero {
@@ -171,7 +174,7 @@ nav a {
 
 .cursos_card_content {
   padding: 1rem 1.25rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--quinary-color);
   border-radius: 0 0 8px 8px;
   border-top: transparent;
 }
@@ -202,9 +205,9 @@ nav a {
   font-size: 1.6em;
   text-align: center;
   padding: 4.5rem;
-  color: inherit;
+  color: var(--inherit-color);
 }
 
 .footer a {
-  color: inherit;
+  color: var(--inherit-color);
 }
